@@ -1,0 +1,61 @@
+nav{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px;
+}
+.logo{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 200px;
+    padding: 0;
+    gap: 60px;
+}
+li{
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+.softskill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+}
+.skill-box {
+    background-color: lab(38.85% 13.04 -39.6);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    
+}
+p{
+    color: oklab(97.363% 0.00065 0.00147);
+    font-size: 20px;
+}
+h3{
+    color: oklab(79.886% -0.06905 0.16243);
+    font-size: 21px;
+}
+h1{
+    color: lab(55.83% 63.82 -6.44);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

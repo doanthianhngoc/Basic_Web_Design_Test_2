@@ -1,0 +1,69 @@
+nav{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px;
+}
+.logo{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 200px;
+    padding: 0;
+    gap: 60px;
+}
+li{
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+p{
+    color: lab(44.77% 17.82 -58.3);
+    font-size: 22px;
+    text-align: center;
+}
+.index {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 50px;
+    margin:0px;
+}
+.content {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 90%;
+    max-width: auto;
+}  
+h1{
+    color: lab(47.44% 66.17 -3.08);
+    font-size: 30px;
+    text-align: center;
+}
+p1{
+    color: lab(37.56% -20.05 -12.56);
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+}       

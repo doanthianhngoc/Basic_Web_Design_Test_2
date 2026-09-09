@@ -1,0 +1,62 @@
+nav{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px;
+}
+.logo{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 200px;
+    padding: 0;
+    gap: 60px;
+}
+li{
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+.aboutme {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+}
+.content {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 90%;
+    max-width: auto;
+}  
+h3{
+    color: oklab(29.127% 0.01038 -0.17512);
+    font-size: 25px;
+}
+p{
+    color: lch(49.57% 65.96 52.89);
+    font-size: 22px;
+
+}

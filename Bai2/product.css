@@ -1,0 +1,65 @@
+nav{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px;
+}
+.logo{
+    background-color: lab(12.97% 18.27 -39.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 200px;
+    padding: 0;
+    gap: 60px;
+}
+li{
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    
+}
+.product-item {
+    background-color: lab(38.85% 13.04 -39.6);
+    padding: 20px;
+    border-radius: 35px;
+    color: white;
+    
+}
+p{
+    color: oklab(45.133% 0.17656 -0.06747);
+    font-size: 25px;
+    text-align: center;
+}
+h4{
+    color: oklab(79.886% -0.06905 0.16243);
+    font-size: 22px;
+}
+h3{
+    color: lab(45.56% 64.33 44.95);
+    text-align: center;
+    font-size: 25px;
+}
+p1{
+    font-size: 20px;
+}
